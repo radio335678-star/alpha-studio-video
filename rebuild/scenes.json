@@ -1,0 +1,178 @@
+[
+  {
+    "accent": true,
+    "bg": "tunnel",
+    "end": 2.2,
+    "id": "hook",
+    "layout": "center",
+    "lines": [
+      "Say what you",
+      "want most",
+      "It's built."
+    ],
+    "motion_in": "rise",
+    "motion_out": "whip",
+    "start": 0.0,
+    "sub": "Alpha makes it real"
+  },
+  {
+    "accent": true,
+    "bg": "rings",
+    "end": 4.4,
+    "id": "hero",
+    "layout": "center",
+    "lines": [
+      "Meet Alpha-2.5",
+      "Your own crew",
+      "At your side"
+    ],
+    "motion_in": "pop",
+    "motion_out": "fade",
+    "start": 2.2,
+    "sub": "A real team for you"
+  },
+  {
+    "accent": false,
+    "bg": "grid",
+    "end": 6.5,
+    "id": "sees",
+    "layout": "left",
+    "lines": [
+      "It sees",
+      "Words and pictures",
+      "All at once"
+    ],
+    "motion_in": "blur",
+    "motion_out": "whip",
+    "start": 4.4,
+    "sub": "Reads what you show"
+  },
+  {
+    "accent": false,
+    "bg": "waves",
+    "end": 8.6,
+    "id": "plans",
+    "layout": "left",
+    "lines": [
+      "It plans",
+      "Talks it through",
+      "With you first"
+    ],
+    "motion_in": "slide-left",
+    "motion_out": "fade",
+    "start": 6.5,
+    "sub": "Clear steps, no shocks"
+  },
+  {
+    "accent": false,
+    "bg": "particles",
+    "end": 10.6,
+    "id": "always-on",
+    "layout": "center",
+    "lines": [
+      "Never asleep",
+      "Works all night",
+      "Every single day"
+    ],
+    "motion_in": "zoom",
+    "motion_out": "whip",
+    "start": 8.6,
+    "sub": "24/7 on your side"
+  },
+  {
+    "accent": false,
+    "bg": "grid",
+    "end": 12.8,
+    "id": "connect",
+    "layout": "center",
+    "lines": [
+      "Plug in once",
+      "Shop. Pay. Video.",
+      "Mail. Files. Done."
+    ],
+    "motion_in": "pop",
+    "motion_out": "fade",
+    "start": 10.6,
+    "sub": "Your tools just click"
+  },
+  {
+    "accent": true,
+    "bg": "rings",
+    "end": 15.0,
+    "id": "proof",
+    "layout": "center",
+    "lines": [
+      "1,000,000 jobs done",
+      "Live cost shown",
+      "Right on screen"
+    ],
+    "motion_in": "rise",
+    "motion_out": "whip",
+    "start": 12.8,
+    "sub": "Real work, real proof"
+  },
+  {
+    "accent": false,
+    "bg": "tunnel",
+    "end": 17.1,
+    "id": "triplet",
+    "layout": "center",
+    "lines": [
+      "SEE it clear",
+      "PLAN it well",
+      "BUILD it fast"
+    ],
+    "motion_in": "blur",
+    "motion_out": "fade",
+    "start": 15.0,
+    "sub": "Works while you sleep"
+  },
+  {
+    "accent": false,
+    "bg": "waves",
+    "end": 19.3,
+    "id": "while-you-sleep",
+    "layout": "left",
+    "lines": [
+      "You sleep deep",
+      "Alpha keeps going",
+      "Work gets done"
+    ],
+    "motion_in": "slide-left",
+    "motion_out": "whip",
+    "start": 17.1,
+    "sub": "Night shift, handled"
+  },
+  {
+    "accent": true,
+    "bg": "particles",
+    "end": 21.5,
+    "id": "closer",
+    "layout": "center",
+    "lines": [
+      "Say it once",
+      "It's built",
+      "By morning"
+    ],
+    "motion_in": "zoom",
+    "motion_out": "fade",
+    "start": 19.3,
+    "sub": "Your words. Real things."
+  },
+  {
+    "accent": false,
+    "bg": "solid",
+    "end": 25.0,
+    "fineprint": "You approve everything. It never spends on its own.",
+    "id": "endcard",
+    "layout": "center",
+    "lines": [
+      "Alpha",
+      "Say it. It's built."
+    ],
+    "motion_in": "rise",
+    "motion_out": "fade",
+    "start": 21.5,
+    "sub": "alpha.studio"
+  }
+]
