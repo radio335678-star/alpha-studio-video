@@ -1,15 +1,22 @@
-# ALPHA Studio Video — Silver Edition
+# ALPHA Studio Video
 
-Silver rebrand of the LongCat promo: same cuts, same sound, new Alpha identity.
+Full Alpha rebrand: same cuts, same sound, all words rewritten for ALPHA.
 
-## File
-- `edited_alpha_silver.mp4` — 25s, 1280x720, 30fps, H264 + AAC. White / grey / black / silver grade, no green.
+## Files
+- `alpha_full.mp4` — 25s, 1280x720, 30fps. Full Alpha script, silver grade (white/grey/black), blended 3D Alpha logo at end. Audio copied bit-identical.
+- `edited_alpha_silver.mp4` — earlier pass (name-swap only, kept LongCat lines).
 
-## Changes vs original
-- `0–1.8s` footer: `MEITUAN · LONGCAT` → `MEITUAN · ALPHA`, `> boot longcat-2.5` → `> boot alpha-2.5`
-- `6.0–6.95s` hero: `LongCat-2.5` → `Alpha-2.5` + `PREVIEW` tag kept
-- `23.6–25s` end card: `LongCat` → `Alpha`, `LongCat-2.5-Preview` → `Alpha-2.5-Preview`, `longcat.chat` → `alpha.chat`, footer trademark → `ALPHA`, green M cat logo → 3D Alpha mark (black / silver / blue / bronze)
-- Grade: `hue=s=0, eq=contrast=1.1:brightness=0.02` — green mapped to silver grey, audio copied bit-identical
+## What changed in alpha_full.mp4
+Silver grade (`hue=s=0`), no green. All cards rewritten short + plain (normal people + devs):
+- boot: `> boot alpha-2.5`, `MEITUAN · ALPHA`
+- prompt: `Found store bug` / `Fixed, preview ready - tap to approve`
+- hero: `Alpha-2.5 PREVIEW`
+- stingers: `Crew builds / not a chat box`, `See everything live / cost, who, what`, `Talk it through / plan before build`, `1.6T dreams powered / shops, clips, apps`, `Easy Connect / plug store once`
+- tokens: `1,000,000 / Pay as you build`
+- triptych: `See everything live`, `Talk it through`, `You approve all / never sends alone`
+- harness: `Five rooms, one crew / THINK BUILD STUDIO AUTOMATE CONNECT / talk, make, sell - runs all night` + `EASY CONNECT · LIVE COST SHOWN`
+- positioning: `Works while you sleep. / selling, posting, helping`
+- end: blended Alpha mark + `Alpha / Alpha-2.5-Preview / alpha.chat` + `© 2026 ALPHA - ALL RIGHTS RESERVED`
 
-## Source
-Original: `original.mp4` (not included). Logo: `alpha-logo (2).jpg` (not included).
+## Build
+Base: `base_silver.mp4` + 16 PNG patches (`/tmp/opencode/A`, `/tmp/opencode/B`) + `patch_logo_blend.png` (feathered cutout, shadow + silver glow), ffmpeg overlay chain, `libx264 crf 18`, `-c:a copy`.
